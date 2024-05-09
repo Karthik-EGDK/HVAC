@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quote {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  color: white;
+}
+.quote ::-moz-placeholder {
+  color: white;
+}
+.quote ::placeholder {
+  color: white;
+}
+.quote input {
+  height: 46px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+  font-size: 15px;
+  color: white;
+  background: transparent;
+  margin-bottom: 30px;
+}
+.quote select {
+  height: 46px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+  font-size: 15px;
+  color: white;
+  background: transparent;
+  margin-bottom: 30px;
+}
+.quote .container {
+  width: 50%;
+  height: inherit;
+  background-color: #4586d5;
+}
+.quote .container .form_quote h2 {
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-family: "Saira Condensed", sans-serif;
+}
+.quote .container .form_quote form {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.quote .container .form_quote form select .a {
+  color: black;
+}
+.quote .container .form_quote form .first,
+.quote .container .form_quote form .second {
+  float: left;
+  margin-left: 1rem;
+}
+.quote .container .form_quote form .bottom-text {
+  width: 85%;
+}
+.quote .container .form_quote form .bottom-text textarea {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+  font-size: 15px;
+  color: white;
+  background: transparent;
+  margin-bottom: 30px;
+  width: inherit;
+  height: 100px;
+  margin-left: 1rem;
+}
+.quote .container .form_quote form .side-btn button {
+  border: none;
+  display: inline-block;
+  padding: 14px 30px;
+  background: #fad110;
+  font-size: 16px;
+  font-family: "Saira Condensed", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+.quote .get-video {
+  width: 50%;
+  float: left;
+}
+.quote .get-video img {
+  float: left;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=assignment.css.map */
